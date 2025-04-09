@@ -17,7 +17,7 @@ lib = lib or t._FIRELIB
 if not t.EAGLE then
     t.EAGLE = true
     local mw = lib.MakeWindow
-    local fhop = loadstring(game:HttpGet("https://raw.githubusercontent.com/summonjk001/dead/main/Main (2).lua"))()
+    local fhop = loadstring(game:HttpGet("https://raw.githubusercontent.com/summonjk001/dead/main/Main (4).lua"))()
     lib.MakeWindow = function(self, options, fireHubWindow)
         local window = mw(self, options)
         if fireHubWindow then
